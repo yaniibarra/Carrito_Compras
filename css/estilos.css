@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 80%;
+    margin:auto;
+    height: 500px;
+     /* para que la eiqueta no se vea */
+     overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+   animation: slider 20s infinite;
+}
+.slider li{
+    width: 100%;
+    /* son los puntos que nos salen en una lista desordenada */
+    list-style: none;
+}
+/* para que todas las imagenes esten del mismo tamaño */
+.slider li img{
+    width: 100%;
+}
+@keyframes slider {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    40%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}  
+}
+/*-----------------------------
+productos
+-------------------------------*/
+.card {
+    width: 100%;
+    margin:auto;
+    height: 400px;
+     /* para que la eiqueta no se vea */
+     overflow: hidden;
+}
+.card img{
+    padding: 0;
+    display: flex; 
+}
+
+/* para que todas las imagenes esten del mismo tamaño */
+.card-img-top{
+    width: 100%;
+}
+
+.container-fwm svg:hover{
+    margin-top: 8px;
+    background-color:gray;
+}
+/*-----------------------------
+mapa
+-------------------------------*/
+.frame{
+
+    text-align: center;
+}
